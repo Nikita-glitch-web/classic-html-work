@@ -1,0 +1,107 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    font-family: 'Cormorant Garamond';
+  }
+  html { height: 101%; } /* always display scrollbars */
+  body { font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+
+  
+$title__font: 'Work Sans', sans-serif;
+$text__font: 'Poppins', sans-serif;
+$font__color: #1a4e8d;
+$background__color: rgb(172,213,222);
+
+.main-page-content {
+    background: $background__color;
+    width: 100%;
+    .services-content-text-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 6%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 7%;
+        .sevices-content-sub-title {
+            font-size: 24px;
+            text-align: center;
+            color: $font__color;
+            font-family: $text__font;
+        }
+        .services-content-sub-text {
+            font-size: 72px;
+            font-weight: 900;
+            padding-top: 23px;
+            text-align: center;
+            color: $font__color;
+            font-family: $title__font;
+        }
+
+    }
+    .services-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .white-services-content-box {
+            background: white;
+            width: 65%;
+            display: flex;
+            justify-content: space-between;
+            height: 125px;
+            margin-bottom: 20px;
+            .title-button-wrapper {
+                padding: 30px;
+                .title-button {
+                    background: transparent;
+                    color: $font__color;
+                    font-size: 24px;
+                    border: none;
+                    font-family: $text__font;
+                    cursor: pointer;
+                    font-weight: 900;
+                }
+                .title-button:hover {
+                    color: $background__color;
+                }
+            }
+        }
+
+        .services-other-info {
+            
+            padding-top: 43px;
+    padding-right: 30px;
+    display: flex;
+            .services-other-info-text {
+                font-size: 16px;
+                color: $font__color;
+                font-family: $text__font;
+                line-height: 26px;
+                font-weight: 700;
+            }
+            .other-info-btn {
+                width: 160px;
+                height: 39px;
+                background: $font__color;
+                font-size: 17px;
+                color: white;
+                border-radius: 25px;
+                border: none;
+                cursor: pointer;
+                font-family: $text__font;
+                font-weight: 400;
+                margin-left: 90px;
+            } 
+            .other-info-btn:hover {
+                background: $background__color;
+                cursor: pointer;
+                color: $font__color;
+            }
+        }
+    }
+}
