@@ -1,0 +1,107 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  font-family: "Cormorant Garamond";
+}
+
+html {
+  height: 101%;
+} /* always display scrollbars */
+body {
+  font-size: 62.5%;
+  line-height: 1;
+  font-family: Arial, Tahoma, Verdana, sans-serif;
+}
+
+.main-page-content {
+  background: rgb(172, 213, 222);
+  width: 100%;
+}
+.main-page-content .services-content-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 7%;
+}
+.main-page-content .services-content-text-box .sevices-content-sub-title {
+  font-size: 24px;
+  text-align: center;
+  color: #1a4e8d;
+  font-family: "Poppins", sans-serif;
+}
+.main-page-content .services-content-text-box .services-content-sub-text {
+  font-size: 72px;
+  font-weight: 900;
+  padding-top: 23px;
+  text-align: center;
+  color: #1a4e8d;
+  font-family: "Work Sans", sans-serif;
+}
+.main-page-content .services-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-page-content .services-content .white-services-content-box {
+  background: white;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  height: 125px;
+  margin-bottom: 20px;
+}
+.main-page-content .services-content .white-services-content-box .title-button-wrapper {
+  padding: 30px;
+}
+.main-page-content .services-content .white-services-content-box .title-button-wrapper .title-button {
+  background: transparent;
+  color: #1a4e8d;
+  font-size: 24px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-weight: 900;
+}
+.main-page-content .services-content .white-services-content-box .title-button-wrapper .title-button:hover {
+  color: rgb(172, 213, 222);
+}
+.main-page-content .services-content .services-other-info {
+  padding-top: 43px;
+  padding-right: 30px;
+  display: flex;
+}
+.main-page-content .services-content .services-other-info .services-other-info-text {
+  font-size: 16px;
+  color: #1a4e8d;
+  font-family: "Poppins", sans-serif;
+  line-height: 26px;
+  font-weight: 700;
+}
+.main-page-content .services-content .services-other-info .other-info-btn {
+  width: 160px;
+  height: 39px;
+  background: #1a4e8d;
+  font-size: 17px;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-left: 90px;
+}
+.main-page-content .services-content .services-other-info .other-info-btn:hover {
+  background: rgb(172, 213, 222);
+  cursor: pointer;
+  color: #1a4e8d;
+}
+
+/*# sourceMappingURL=services.css.map */
